@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 279px;
+  height: 60px;
+}
+
+span.section-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #13902a;
+  font-size: 26px;
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
+}
+
+/* .top-bar{
+    width:1200px;
+} */
+.social-top {
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .social img {
+    display: none;
+  }
+  .profile img {
+    display: block;
+  }
+
+  .roma {
+    display: flex;
+    margin-top: 1.2%;
+    margin-left: 1%;
+  }
+  .roma2 {
+    margin-left: 40px;
+  }
+  .logo-block {
+    display: flex;
+  }
+  .logo-block2 {
+    margin: 20px 0 0 20px;
+  }
+  .mainbanner {
+    margin-top: -20px;
+  }
+  .top-nav {
+    position: relative;
+  }
+  .main-menu {
+    position: absolute;
+    top: 10%;
+  }
+  .banner {
+    margin-top: -30px !important;
+  }
+  .logo-icon {
+    margin-left: 3.5%;
+  }
+  button.navbar-toggler {
+    padding: 0;
+  }
+  nav.navbar.navbar-expand-lg.navbar-dark.main-menu-nav {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .profile img {
+    display: none;
+  }
+}
+.my-account {
+  border-radius: 5px;
+}
+a.nav-link {
+  color: #ffffff !important;
+  border-right: 1px solid #fff;
+}
+
+span.navbar-text.bg-primary.px-5.my-account {
+  color: #ffffff;
+}
+.main-menu,
+.upcomingonline {
+  background-color: #f30000;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.card-you-col,
+.col-lg-2.m-2.p-2 {
+  border: 1px solid rgb(223, 222, 222);
+  border-radius: 8px;
+}
+/*biggest-upcoming*/
+.col-biggest-wrap,
+.biggest-latest-winners-left,
+.winning-tikets,
+.winner-country {
+  border: 1px solid rgb(223, 222, 222);
+  border-radius: 8px;
+}
+.price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+.time {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #0061a3;
+}
+.mega-million {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.lower-sec {
+  background-color: blue;
+}
+/*playupcominglotteries*/
+.playupcoming-wrap {
+  flex-direction: column;
+}
+.timer {
+  background-color: #ffffff !important;
+  color: #0061a3 !important;
+}
+.img-star-sec {
+  position: relative;
+}
+.img-star-icon {
+  position: absolute;
+  top: 0;
+  right: -40px;
+}
+.playupcominglotteries-botom-link {
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+/*biggest-latest-winners*/
+.pshaun {
+  margin-right: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.margin-bottom-para {
+  margin-bottom: -2px;
+}
+/*faq*/
+button.accordion-button {
+  background-color: #ffffff !important;
+}
+.footer-top {
+  background-image: url(img/footer-bg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.last-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.last-sec img {
+  margin-right: 15px;
+}
+.footer-bottom {
+  background-image: linear-gradient(white 50%, rgb(233, 229, 229));
+}
